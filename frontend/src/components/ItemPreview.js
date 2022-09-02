@@ -5,8 +5,6 @@ import { connect } from "react-redux";
 import { ITEM_FAVORITED, ITEM_UNFAVORITED } from "../constants/actionTypes";
 import placeholder from "../imgs/placeholder.png";
 
-
-
 const mapDispatchToProps = (dispatch) => ({
   favorite: (slug) =>
     dispatch({
